@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tenax Mobile Labs | Independent Mobile Game Studio</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-color: #cbd5e1;
+            --heading-color: #ffffff;
+            --accent-color: #38bdf8;
+            --border-color: #334155;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            text-align: center;
+            padding: 60px 20px 30px;
+        }
+        .badge {
+            display: inline-block;
+            background: #0284c7;
+            color: #ffffff;
+            padding: 6px 14px;
+            border-radius: 9999px;
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 16px;
+        }
+        h1 {
+            color: var(--heading-color);
+            font-size: 36px;
+            margin: 0 0 12px;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+        }
+        p.subtitle {
+            font-size: 18px;
+            color: #94a3b8;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        main {
+            flex: 1;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 24px;
+        }
+        .card h2 {
+            margin-top: 0;
+            color: var(--accent-color);
+            font-size: 22px;
+        }
+        .links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-top: 20px;
+        }
+        .link-btn {
+            display: block;
+            background-color: #334155;
+            color: #ffffff;
+            padding: 12px 16px;
+            border-radius: 8px;
+            text-decoration: none;
+            text-align: center;
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+        .link-btn:hover {
+            background-color: #0284c7;
+        }
+        footer {
+            border-top: 1px solid var(--border-color);
+            padding: 24px 20px;
+            text-align: center;
+            font-size: 14px;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <span class="badge">Official Studio</span>
+    <h1>TENAX MOBILE LABS</h1>
+    <p class="subtitle">Crafting clean, lightweight, and engaging puzzle games for Android.</p>
+</header>
+
+<main>
+    <div class="card">
+        <h2>Current Title</h2>
+        <p><strong>Arrow Escape: Tap Away</strong> &mdash; A spatial logic puzzle game where players clear intricate direction-locked arrows without collisions. Built natively with zero bloat.</p>
+    </div>
+
+    <div class="card">
+        <h2>Compliance & Legal Information</h2>
+        <div class="links-grid">
+            <a href="privacy.html" class="link-btn">Privacy Policy</a>
+            <a href="terms.html" class="link-btn">Terms of Service</a>
+            <a href="app-ads.txt" class="link-btn">app-ads.txt</a>
+            <a href="mailto:tenaxlabs@atomicmail.io" class="link-btn">Contact Support</a>
+        </div>
+    </div>
+</main>
+
+<footer>
+    &copy; 2026 Tenax Mobile Labs. All rights reserved.
+</footer>
+
+</body>
+</html>
