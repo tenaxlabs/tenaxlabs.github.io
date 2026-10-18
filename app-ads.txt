@@ -1,0 +1,37 @@
+# ==============================================================================
+
+# Tenax Mobile Labs - app-ads.txt
+
+# Official Publisher Authorized Digital Sellers Record
+
+# Hosted at: https://tenaxlabs.github.io/app-ads.txt
+
+# ==============================================================================
+
+
+
+# ------------------------------------------------------------------------------
+
+# 1. Google AdMob
+
+# Replace "pub-XXXXXXXXXXXXXXXX" with your 16-digit AdMob Publisher ID
+
+# Format: google.com, pub-################, DIRECT, f08c47fec0942fa0
+
+# ------------------------------------------------------------------------------
+
+google.com, pub-2140078759374770, DIRECT, f08c47fec0942fa0
+
+
+
+# ------------------------------------------------------------------------------
+
+# 2. Appodeal Exchange & BidMachine
+
+# Direct exchange entries for Appodeal ad mediation
+
+# ------------------------------------------------------------------------------
+
+appodeal.com, 10001, DIRECT
+
+bidmachine.io, 1, DIRECT
